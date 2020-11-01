@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ComposeTest</string>
+    <string name="car_brand_models_count">Models count: %d</string>
+</resources>
