@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeTest">
+        <activity android:name=".carbranddetails.CarBrandDetailsActivity"></activity>
         <activity
-            android:name=".carbrandlist.ui.CarBrandListActivity"
+            android:name=".carbrandlist.CarBrandListActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.ComposeTest.NoActionBar">
             <intent-filter>

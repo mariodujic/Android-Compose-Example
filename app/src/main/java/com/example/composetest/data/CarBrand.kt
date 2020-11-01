@@ -1,4 +1,4 @@
-package com.example.composetest.carbrandlist.data
+package com.example.composetest.data
 
 data class CarBrand(
     val brand: String,

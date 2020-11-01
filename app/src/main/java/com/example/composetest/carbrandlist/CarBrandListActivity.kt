@@ -1,4 +1,4 @@
-package com.example.composetest.carbrandlist.ui
+package com.example.composetest.carbrandlist
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -18,14 +18,14 @@ class CarBrandListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         instantiateViewModel()
-        setCarBrandListContent()
+        showCarBrandListContent()
     }
 
     private fun instantiateViewModel() {
         carBrandListViewModel = ViewModelProvider(this).get(CarBrandListViewModel::class.java)
     }
 
-    private fun ComponentActivity.setCarBrandListContent() {
+    private fun ComponentActivity.showCarBrandListContent() {
         setContent {
             val carListState by carBrandListViewModel.carListState.observeAsState(emptyList())
 
